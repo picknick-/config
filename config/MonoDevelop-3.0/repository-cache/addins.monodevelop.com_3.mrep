@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>MonoDevelop Add-in Repository</Name>
+  <Url>http://addins.monodevelop.com/Stable/Linux/3.0.3/root.mrep</Url>
+  <Addin>
+    <Url>MonoDevelop.FSharpBinding-3.2.12.mpack</Url>
+    <Addin>
+      <Id>FSharpBinding</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>F# Language Binding</Name>
+      <Version>3.2.12</Version>
+      <BaseVersion />
+      <Author>F# Open Source Foundation (fsharp.org)</Author>
+      <Copyright>F# Open Source Foundation (fsharp.org)</Copyright>
+      <Url>http://fsharp.github.com/fsharpbinding</Url>
+      <Description>F# Language Binding (for MonoDevelop 3.0.3.2). Install F# 3.0 before using.</Description>
+      <Category>Language bindings</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0.3</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0.3</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>3.0.3</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Refactoring</AddinId>
+          <Version>3.0.3</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">1129704</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.GTKSharp3.GTKSharp3Project-0.1.mpack</Url>
+    <Addin>
+      <Id>GTKSharp3Project</Id>
+      <Namespace>MonoDevelop.GTKSharp3</Namespace>
+      <Name>GTK# 3 Simple Project Template</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Robert Nordan</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>http://www.robpvn.net</Url>
+      <Description>Provides a template for a simple GTK#3 Project where you use Glade (externally) to design the UI files.</Description>
+      <Category>GTK3 Development</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">5872</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.MonoGame-3.0.0.mpack</Url>
+    <Addin>
+      <Id>MonoGame</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>MonoGame Project Templates</Name>
+      <Version>3.0.1</Version>
+      <BaseVersion />
+      <Author>Dean Ellis</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.monogame.net/</Url>
+      <Description>C# Project and File templates for MonoGame</Description>
+      <Category>Mono Game</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3941942</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.StyleCop-1.0.1.6.mpack</Url>
+    <Addin>
+      <Id>StyleCop</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>StyleCop Support</Name>
+      <Version>1.0.1.6</Version>
+      <BaseVersion />
+      <Author>Alexander Jochum</Author>
+      <Copyright>APL 2.0</Copyright>
+      <Url />
+      <Description>Provides StyleCop support to MonoDevelop</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2380503</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>

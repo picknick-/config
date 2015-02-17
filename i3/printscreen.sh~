@@ -1,0 +1,2 @@
+TIME = 'date +"%T"'
+xwd  | convert xwd:- ~/printScreen/ $TIME 

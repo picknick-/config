@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FLAGFILE="/tmp/monwbu"
+
+if [ -e $FLAGFILE ]; then
+    rm $FLAGFILE
+    xrandr --output LVDS1 --mode 1920x1080 --rate 60
+else
+    touch $FLAGFILE
+    xrandr --output LVDS1 -off
+fi

@@ -1,0 +1,3 @@
+#!/bin/zsh
+TIME=`date +"%F %T"`
+xwd -rootq | convert xwd:- ~/printScreen/$TIME.png 

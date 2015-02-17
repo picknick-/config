@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Nightly-SWMTSX.desktop
+x-scheme-handler/https=userapp-Nightly-SWMTSX.desktop
+x-scheme-handler/ftp=userapp-Nightly-SWMTSX.desktop
+x-scheme-handler/chrome=userapp-Nightly-SWMTSX.desktop
+text/html=userapp-Nightly-SWMTSX.desktop
+application/x-extension-htm=userapp-Nightly-SWMTSX.desktop
+application/x-extension-html=userapp-Nightly-SWMTSX.desktop
+application/x-extension-shtml=userapp-Nightly-SWMTSX.desktop
+application/xhtml+xml=userapp-Nightly-SWMTSX.desktop
+application/x-extension-xhtml=userapp-Nightly-SWMTSX.desktop
+application/x-extension-xht=userapp-Nightly-SWMTSX.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+x-scheme-handler/https=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+x-scheme-handler/ftp=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+x-scheme-handler/chrome=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+text/html=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/x-extension-htm=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/x-extension-html=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/x-extension-shtml=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/xhtml+xml=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/x-extension-xhtml=userapp-Nightly-SWMTSX.desktop;firefox.desktop;
+application/x-extension-xht=userapp-Nightly-SWMTSX.desktop;firefox.desktop;

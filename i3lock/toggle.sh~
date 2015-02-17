@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FLAGFILE="/tmp/xautolock"
+
+if [ -e $FLAGFILE ]; then
+    xset dpms
+    xautolock -enable
+    rm -f $FLAGFILE
+    echo "" > /tmp/lockstat 
+       
+else
+    touch $FLAGFILE
+    xset -dpms
+    xautolock -disable
+    echo "" > /tmp/lockstat
+fi
+mv ~/.i3/config ~/konfig
+mv  ~/konfig ~/.i3/config
+i3-msg reload

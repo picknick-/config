@@ -1,0 +1,24 @@
+VirtualBox GUI VM Selector Window 4.3.18_Debian r96516 linux.amd64 (Oct 18 2014 13:07:08) release log
+00:00:00.360114 Log opened 2015-01-16T00:55:08.373617000Z
+00:00:00.360116 Build Type: release
+00:00:00.360119 OS Product: Linux
+00:00:00.360120 OS Release: 3.16.0-4-amd64
+00:00:00.360122 OS Version: #1 SMP Debian 3.16.7-ckt2-1 (2014-12-08)
+00:00:00.360148 DMI Product Name: Lenovo IdeaPad Y580
+00:00:00.360157 DMI Product Version: Lenovo IdeaPad Y580
+00:00:00.360455 Host RAM: 7907MB total, 7267MB available
+00:00:00.360458 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.360459 Process ID: 7211
+00:00:00.360460 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.374519 UIMediumEnumerator: Medium-enumeration started...
+00:00:00.489058 UIMediumEnumerator: Medium-enumeration finished!
+00:00:20.392741 2D support test succeeded
+00:00:20.396161 UIMediumEnumerator: Medium-enumeration started...
+00:00:20.453474 UIMediumEnumerator: Medium-enumeration finished!
+00:00:42.685865 UIMediumEnumerator: Medium-enumeration started...
+00:00:42.714049 UIMediumEnumerator: Medium-enumeration finished!
+00:01:10.029353 UIMediumEnumerator: Machine unregistration event received, ID = 180ea85b-6550-4239-b6a3-9f591085de10
+00:01:10.029409 UIMediumEnumerator:  Old usage: 309a237b-ed0b-40fc-986a-3d88a3e29de2, 96b499e2-4c65-42ab-bfa3-75eccad97edc
+00:01:10.030881 UIMediumEnumerator:  Medium with key={309a237b-ed0b-40fc-986a-3d88a3e29de2} uncached.
+00:01:10.031896 UIMediumEnumerator:  Medium with key={96b499e2-4c65-42ab-bfa3-75eccad97edc} uncached.
+00:01:10.031960 UIMediumEnumerator: Machine unregistration event processed, ID = 180ea85b-6550-4239-b6a3-9f591085de10

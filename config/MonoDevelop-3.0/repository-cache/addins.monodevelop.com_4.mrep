@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>MonoDevelop Add-in Repository (Beta channel)</Name>
+  <Url>http://addins.monodevelop.com/Beta/Linux/3.0.3/root.mrep</Url>
+  <Addin>
+    <Url>MonoDevelop.D-0.4.1.6.mpack</Url>
+    <Addin>
+      <Id>D</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>D Language Binding</Name>
+      <Version>0.5.5.4</Version>
+      <BaseVersion />
+      <Author>Alexander Bothe</Author>
+      <Copyright />
+      <Url>http://mono-d.alexanderbothe.com</Url>
+      <Description>D Language Binding</Description>
+      <Category>Language bindings</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>DesignerSupport</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Refactoring</AddinId>
+          <Version>4.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">478737</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.EmmetPlugin.EmmetPlugin-0.1.1.mpack</Url>
+    <Addin>
+      <Id>EmmetPlugin</Id>
+      <Namespace>MonoDevelop.EmmetPlugin</Namespace>
+      <Name>Emmet</Name>
+      <Version>0.1.1</Version>
+      <BaseVersion />
+      <Author>SHTrassEr</Author>
+      <Copyright>LGPL 3</Copyright>
+      <Url>https://github.com/SHTrassEr/MonoDevelop.EmmetPlugin</Url>
+      <Description>Emmet plugin (for MonoDevelop 3.0). Install Node.js &gt;=0.8.2 before using.</Description>
+      <Category>Web Development</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">279197</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.HaxeBinding-0.4.1.mpack</Url>
+    <Addin>
+      <Id>HaxeBinding</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Haxe Language Binding</Name>
+      <Version>0.4.1</Version>
+      <BaseVersion />
+      <Author>Joshua Granick</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url />
+      <Description>Haxe Language Binding</Description>
+      <Category>Language bindings</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>SourceEditor2</AddinId>
+          <Version>3.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">58270</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>MonoDevelop.LimitOpenFiles-0.3.mpack</Url>
+    <Addin>
+      <Id>LimitOpenFiles</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Limit open Files</Name>
+      <Version>0.3</Version>
+      <BaseVersion />
+      <Author>Mathias L. Baumann 'Marenz'</Author>
+      <Copyright>MIT/X11</Copyright>
+      <Url>https://github.com/Marenz/MonoDevelop.LimitOpenFiles</Url>
+      <Description>Limits the amount of concurrent open files</Description>
+      <Category>Source Editor Extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3377</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>

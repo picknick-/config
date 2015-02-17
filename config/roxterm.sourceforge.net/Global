@@ -1,0 +1,5 @@
+[roxterm options]
+profile=szulc
+colour_scheme=Default
+warn_close=1
+only_warn_running=1
