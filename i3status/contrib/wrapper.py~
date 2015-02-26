@@ -35,7 +35,10 @@ def get_governor():
 def get_xautolock():
     with open('/tmp/lockstat') as fp:
         return fp.readlines()[0].strip()
-    
+
+def call():
+    with open('/home/mszulc1/.call/call') as fp:
+                return fp.readlines()[0].strip()
 def get_bat():
     with open('/sys/class/power_supply/BAT1/status') as fp:
                 return fp.readlines()[0].strip()
@@ -79,10 +82,13 @@ if __name__ == '__main__':
         # CHANGE THIS LINE TO INSERT SOMETHING ELSE
         j.insert(0, {'full_text' : '%s' % get_governor(), 'name' : 'gov',"color":"#0000FF"})
         j.insert(0, {'full_text' : '%s' % get_xautolock(), 'name' : 'lockstat',"color":"#8888882"})
+        j.insert(0, {'full_text' : '%s' % call(), 'name' : 'call',"color":"#FF0000"})
         #bateria gdy wpieta do gniazdka
         if get_bat()!="Discharging":
-            j.pop(8)
-            j.insert(8, {'full_text' : ' %s%%' % get_power(), 'name' : 'bat',"color":"#00e4ff"})
+            j.pop(9)
+            j.insert(9, {'full_text' : ' %s%%' % get_power(), 'name' : 'bat',"color":"#00e4ff"})
             print_line(prefix+json.dumps(j))
         else:
             print_line(prefix+json.dumps(j))
+
+
